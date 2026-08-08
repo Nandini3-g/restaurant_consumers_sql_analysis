@@ -77,13 +77,13 @@ Analyze consumer spending segments and restaurant performance
 Example Business Questions
 
 Some of the questions explored in this project include:
-16. Which restaurants have highly satisfactory ratings?
-17. Which consumers prefer Mexican cuisine?
-18. Which restaurants have ratings below the overall average?
-19. Which consumers have rated restaurants but never rated an Italian restaurant?
-20. Which restaurants are popular among consumers over 30?
-21. Which students have rated more than two restaurants?
-22. What is the average consumer age by occupation?
-23. Which restaurants have the highest ratings within each cuisine?
-24. Which consumers have the highest average ratings?
-25. How does an individual consumer's rating compare with a restaurant's overall performance?
+1. Which restaurants have highly satisfactory ratings?
+2. Which consumers prefer Mexican cuisine?
+3. Which restaurants have ratings below the overall average?
+4. Which consumers have rated restaurants but never rated an Italian restaurant?
+5. Which restaurants are popular among consumers over 30?
+6. Which students have rated more than two restaurants?
+7. What is the average consumer age by occupation?
+8. Which restaurants have the highest ratings within each cuisine?
+9. Which consumers have the highest average ratings?
+10. How does an individual consumer's rating compare with a restaurant's overall performance?
