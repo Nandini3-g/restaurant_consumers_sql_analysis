@@ -12,7 +12,7 @@ Project Objectives
 - Examine consumer ratings and restaurant performance
 - Identify patterns between consumer preferences and restaurant ratings
 - Practice advanced SQL techniques for data analysis
-🗂️ Database Structure
+> Database Structure
 
 The project uses the following tables:
 
@@ -22,95 +22,68 @@ Restaurants — Restaurant information and characteristics
 Restaurant_Cuisines — Cuisines offered by each restaurant
 Ratings — Consumer ratings for restaurants
 SQL Concepts Used:
-Basic SQL
-SELECT
-WHERE
-ORDER BY
-DISTINCT
-Filtering
-Aggregate functions
-Intermediate SQL
-GROUP BY
-HAVING
-INNER JOIN
-LEFT JOIN
-Subqueries
-Multiple-table joins
-Conditional logic using CASE
-Advanced SQL
-Common Table Expressions (CTEs)
-Derived tables
-Window functions
-RANK()
-ROW_NUMBER()
-LEAD()
-Aggregate window functions
-Views
-Stored procedures
-COALESCE
-NOT EXISTS
- Analysis Performed
+> Basic SQL
+SELECT -- WHERE -- ORDER BY -- DISTINCT -- Filtering -- Aggregate functions 
+> Intermediate SQL
+GROUP BY -- HAVING -- INNER JOIN -- LEFT JOIN
+> Subqueries
+- Multiple-table joins
+- Conditional logic using CASE
+> Advanced SQL
+- Common Table Expressions (CTEs)
+- Derived tables
+- Window functions
+- RANK()
+- ROW_NUMBER()
+- LEAD()
+- Aggregate window functions
+- Views
+- Stored procedures
+- COALESCE
+- NOT EXISTS
+Analysis Performed
 
 The project includes queries for:
-
-Finding consumers based on city, occupation, smoking habits, age, and budget
-Analyzing restaurants based on location, price, alcohol service, and franchise status
-Identifying highly rated restaurants
-Finding consumers who rated restaurants in specific cities
-Analyzing Mexican, Italian, American, and Pizzeria preferences
-Comparing food ratings with average restaurant ratings
-Finding consumers based on their restaurant-rating behavior
-Analyzing student consumers and restaurant engagement
-Calculating average consumer ages by occupation
-Ranking restaurant ratings within cities
-Calculating average ratings for individual consumers
-Finding top preferred cuisines for low-budget students
-Comparing a consumer's rating with a restaurant's average rating
-Ranking top-rated restaurants by cuisine
-Identifying top consumers based on average ratings
-👁️ Advanced SQL Features
-CTEs
-
-Used CTEs to simplify multi-step analysis, including consumer filtering and restaurant-rating analysis.
-
+1. Finding consumers based on city, occupation, smoking habits, age, and budget
+2. Analyzing restaurants based on location, price, alcohol service, and franchise status
+3. Identifying highly rated restaurants
+4. Finding consumers who rated restaurants in specific cities
+5. Analyzing Mexican, Italian, American, and Pizzeria preferences
+6. Comparing food ratings with average restaurant ratings
+7. Finding consumers based on their restaurant-rating behavior
+8. Analyzing student consumers and restaurant engagement
+9. Calculating average consumer ages by occupation
+10. Ranking restaurant ratings within cities
+11. Calculating average ratings for individual consumers
+12. Finding top preferred cuisines for low-budget students
+13. Comparing a consumer's rating with a restaurant's average rating
+14. Ranking top-rated restaurants by cuisine
+15. Identifying top consumers based on average ratings
+Advanced SQL Features
+CTEs : Used CTEs to simplify multi-step analysis, including consumer filtering and restaurant-rating analysis.
 Window Functions
 
 Used:
-
-RANK()
-ROW_NUMBER()
-LEAD()
-AVG() OVER()
-
-for ranking restaurants, finding top preferences, comparing ratings, and analyzing consumer rating behavior.
-
-Views
-
-Created views such as:
-
-HighlyRatedMexicanRestaurant
-ConsumerAverageRatings1
-
-to simplify reusable analysis.
-
+RANK(),ROW_NUMBER(),LEAD(),AVG(), OVER() for ranking restaurants, finding top preferences, comparing ratings, and analyzing consumer rating behavior.
+Views:
+Created views to simplify reusable analysis.
+- HighlyRatedMexicanRestaurant
+- ConsumerAverageRatings1
 Stored Procedures
 
 Created stored procedures to:
-
 Retrieve restaurant ratings above a specified threshold
 Analyze consumer spending segments and restaurant performance
-
 Example Business Questions
 
 Some of the questions explored in this project include:
-
-Which restaurants have highly satisfactory ratings?
-Which consumers prefer Mexican cuisine?
-Which restaurants have ratings below the overall average?
-Which consumers have rated restaurants but never rated an Italian restaurant?
-Which restaurants are popular among consumers over 30?
-Which students have rated more than two restaurants?
-What is the average consumer age by occupation?
-Which restaurants have the highest ratings within each cuisine?
-Which consumers have the highest average ratings?
-How does an individual consumer's rating compare with a restaurant's overall performance?
+16. Which restaurants have highly satisfactory ratings?
+17. Which consumers prefer Mexican cuisine?
+18. Which restaurants have ratings below the overall average?
+19. Which consumers have rated restaurants but never rated an Italian restaurant?
+20. Which restaurants are popular among consumers over 30?
+21. Which students have rated more than two restaurants?
+22. What is the average consumer age by occupation?
+23. Which restaurants have the highest ratings within each cuisine?
+24. Which consumers have the highest average ratings?
+25. How does an individual consumer's rating compare with a restaurant's overall performance?
