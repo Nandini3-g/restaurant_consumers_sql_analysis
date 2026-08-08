@@ -5,13 +5,13 @@ This project analyzes restaurant consumer data using SQL to explore consumer dem
 
 The project covers a range of SQL techniques, from basic filtering and aggregation to advanced concepts such as CTEs, derived tables, window functions, views, and stored procedures.
 
-🎯 Project Objectives
-Analyze consumer demographics and behavior
-Explore consumer cuisine preferences
-Analyze restaurant characteristics and cuisines
-Examine consumer ratings and restaurant performance
-Identify patterns between consumer preferences and restaurant ratings
-Practice advanced SQL techniques for data analysis
+Project Objectives
+- Analyze consumer demographics and behavior
+- Explore consumer cuisine preferences
+- Analyze restaurant characteristics and cuisines
+- Examine consumer ratings and restaurant performance
+- Identify patterns between consumer preferences and restaurant ratings
+- Practice advanced SQL techniques for data analysis
 🗂️ Database Structure
 
 The project uses the following tables:
